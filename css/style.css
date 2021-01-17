@@ -1,0 +1,656 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul, ol{
+    list-style-type:none;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+/* =================================================
+    Common css end
+================================================= */
+/* =================================================
+    Header css start
+==================================================*/
+#header-part{
+    width: 100%;
+    background: #fff;
+    height: 117px;
+}
+.logo{
+    width: 80px;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 13px;
+}
+.heading{
+    width: 630px;
+    float: left;
+
+
+}
+.heading h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #3ca2a2;
+    margin-left: 16px;
+    line-height: 117px;
+}
+.mobile{
+    width: 250px;
+    float: left;
+}
+.mobile p{
+    color: #c70101;
+    font-size:30px ;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 117px;
+}
+
+/* =================================================
+    Header css end
+==================================================*/
+
+/* =================================================
+    Menu css start
+==================================================== */
+    #menu-part{
+        width: 100%;
+        height: 50px;
+        background: #c70101;
+    }
+    .main-menu{
+        width: 840px;
+        height: 100%;
+        float: left;
+    }
+    .main-menu ul{}
+    .main-menu ul li{
+        float: left; 
+        transition: all linear .3s;
+    }
+    .main-menu ul li a{
+        color: #fff;
+        font-size: 16;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        line-height: 50px; 
+        padding: 0 15px;
+    }
+    .main-menu ul li:last-child{
+        padding-right: 0;
+    }
+    .main-menu ul li:hover{
+        background: #f18d26;
+    }
+    
+    .socil-icon{
+        width: 120px;
+        height: 100%;
+        float: left;
+    }
+    .socil-icon ul{}
+    .socil-icon ul li{
+        float: left;
+        height:26px ;
+        width:26px;
+        background: #ffffff;
+        margin: 12px 0 12px 5px;
+        border-radius: 50%;
+        text-align: center;
+        transition: all linear .3s;
+    
+    }
+    .socil-icon ul li a{
+        font-size: 13px;
+        line-height: 26px;
+        color: #c70101;
+    }
+    .socil-icon ul li:hover{
+        background: #3ca2a2;
+    }
+    .socil-icon ul li:hover a{
+        color: #fff;
+    }
+/* =================================================
+    Menu css end
+=================================================== */
+
+/* =================================================
+    Header css start
+==================================================*/
+#banner-part{
+    width: 100%;
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.banner-text{
+    width: 370px;
+    float: left;
+    padding: 70px 0;
+}
+.banner-text h2{
+    color: #215a6d;
+    font-size: 36px;
+    font-weight: 500;
+
+    margin:-5px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner-text h1{
+    color: #215a6d;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+   
+    margin:-10px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner-text p{
+    color: #215a6d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 25px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.banner-text a {
+	padding: 12px 28px;
+	border-radius: 40px;
+	color: #ffffff;
+	font-size: 18px;
+	margin: 10px 0 5px 0;
+	font-weight: 500;
+	background: #215a6d;
+	font-family: 'Open Sans', sans-serif;
+	transition: all linear .3s;
+}
+.banner-text a:hover{
+    background: #6cc488;
+}
+.banner-img{
+    width: 590px;
+    float: left;
+    position: relative;
+   
+}
+.banner-img img{
+    margin-top: 16px;
+    width: 100%;
+    max-width: 100%;
+
+    
+}
+
+/* =================================================
+    Header css end
+==================================================*/
+
+/* =================================================
+    About css start
+==================================================*/
+#about-part{
+    width: 100%;
+    padding: 48px 0;
+    background: #fff;
+
+}
+.first-col{
+    width: 30.94%;
+
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+}
+.first-col:nth-child(3){
+    margin-right: 0;
+}
+.first-col h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #3ca2a2;
+    font-family: 'Open sens', sans-serif;
+
+}
+.first-col img{
+    height:160px;
+    widows: 16px;
+    margin: 26px auto;
+    border-radius: 50%;
+}
+.first-col p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.4px;
+    margin-bottom: 25px;
+    color: #3ca2a2;
+    font-family: 'Open sens', sans-serif;
+
+}
+
+.first-col a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #3ca2a2;
+    font-family: 'Open sens', sans-serif;
+    padding-bottom: 42px;
+    transition: all linear .3s;
+
+}
+.first-col a i{
+    font-size:14px ;
+    color: red;
+}
+.first-col a:hover{
+    color: #215a6d;
+}
+/* =================================================
+    About css end
+==================================================*/
+
+/* =================================================
+    Notice part css start
+==================================================*/
+#notice-part{
+    width: 100%;
+    padding: 30px 0;
+    background: #c5d8d6;
+}
+.notice-col{
+    width: 49%;
+    float: left;
+    margin-right: 30px;
+}
+.notice-col h2{
+    font-size: 28.5px;
+    color: #215a6d;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.notice-col img{
+    
+    margin-bottom: 33px;
+    
+}
+.notice-col ul li{
+    width: 470px;
+    border-bottom: 1px solid #215a6d;
+    
+}
+.notice-col ul li:hover a{
+    background: #ebe9e9;
+    transition: all linear .3s;
+}
+.notice-col ul li:hover a span{
+    color: #c70811;
+}
+.notice-col ul li:hover a i{
+    background:#215a6d;
+    
+}
+.notice-col ul li a{
+    height: 42px;
+    width: 470px;
+    background: #fff;
+
+
+}
+
+.notice-col ul li a span{
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    width: 424px;
+    float: left; 
+    transition: all linear .4s;
+    padding-left: 15px;
+    color: #3ca2a2;
+
+}
+.notice-col ul li a i{
+    font-size: 24px;
+    transition: all linear .3s;
+    height: 42px;
+    width: 46px;
+    text-align: center;
+
+    line-height: 42px;
+    background: #c70811;
+    color: #fff;
+}
+.notice-col ul li:last-child{
+    border-bottom: none;
+}
+.notice-col >a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color:#cf0511;
+    margin: 25px 3px;
+  
+}
+.notice-col>a:hover{
+    transition: all linear .4s;
+    color: #215a6d;
+}
+.notice-col> a>span{
+    margin-left: 5px;
+    
+}
+
+
+.featur-col{
+    width: 47%;
+    float: left;
+
+}
+.featur-col h2{
+    font-size: 28.5px;
+    color: #215a6d;
+    margin-bottom: -2px;
+  
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.shape{
+    width: 95%;
+}
+.featur-col .img img{
+    width: 100%;
+    max-width: 100%;
+    padding: 40px 20px 10px 10px;
+ 
+}
+/* =================================================
+    Notice part css end
+==================================================*/
+
+
+
+/* =================================================
+    Service css start
+==================================================*/
+#service-part{
+    width: 100%;
+    padding: 64px 0;
+    background: #f3f3f3;
+
+}
+.serv-col{
+    width: 31.94%;
+    float: left;
+    margin-right: 20px;
+}
+.serv-col:nth-child(3){
+    margin-right: 0;
+}
+.serv-col h2{
+    font-size: 28.5px;
+    font-weight: 600px;
+    color: #215a6d;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+.serv-col> img{
+    height: 3px;
+    width: 270px;
+    margin-bottom: 30px;
+}
+
+
+
+.serv-text h3{
+    font-size: 18px;
+    font-weight: 600px;
+    color: #3ca2a2;
+    font-family: 'Open Sans', sans-serif;
+}
+.serv-text p{
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 22.4px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #215a6d;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #ddd;
+}
+.serv-col a{
+    padding: 15px 0;
+ 
+}
+.serv-col a i{
+    color: #c70101;
+    margin: 5px;
+}
+.serv-col a span{
+     color: #c70101;
+    
+}
+.serv-text p:last-child{
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.serv-text2 ul{
+    padding-bottom: 26px;
+}
+.serv-text2 ul li i{
+    color: #c70101;
+    font-size: 13px;
+    margin: 5px;
+}
+.serv-text2 ul li span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #215a6d;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 29.5px;   
+}
+
+.gallery-row{
+    width: 300px;
+    
+}
+.serv-col a span{
+    transition: all linear .3s;
+}
+.serv-col a:hover span{
+    color: #215a6d;
+}
+.serv-col a:hover i{
+    color: #215a6d;
+}
+.g-col-1{
+    width: 130px;
+    
+    float: left;
+    margin: 12px 10px;
+   
+}
+.g-col-1 img{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 5px;
+    border: 3px solid #cde1e1;
+}
+.g-col-2{
+    width: 130px;
+    float: left;
+    margin:12px 10px;
+
+}
+.g-col-2 img{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 5px;
+    border: 3px solid #cde1e1;
+}
+/* =================================================
+    Service css end
+==================================================*/
+/* =================================================
+    Doctor css start
+==================================================*/
+#doctor-part{
+    width: 100%;
+    background: #f3f3f3;
+    padding-bottom: 100px;
+
+}
+.doctor-header{
+    width: 100%;
+
+}
+.doctor-header h2{
+    font-size: 28.5px;
+    font-weight: 600;
+    color: #215a6d;
+    font-family: 'Open Sans', sans-serif;
+
+    
+    
+}
+.doctor-header img{
+    width: 100%;
+    height: 3px;
+}
+.doc-col{
+    width: 30.94%;
+    float: left;
+    margin:20px  20px 0 0;
+}
+.doc-col:nth-child(3){
+    margin-right: 0;
+}
+.doc-col img{
+    width: 100%;
+    max-width: 100%;
+    border: 5px solid #e3f5e9;
+}
+.doc-col h2{
+    font-size:18px ;
+    font-weight:400 ;
+    color: #3ca2a2;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+.doc-col p{
+    color: #878787;
+    font-size:12px ;
+    font-weight:400 ;
+    font-family: 'Open Sans', sans-serif;
+}
+.doc-col a{
+    color: #cc0101;
+    font-size:12px ;
+    font-weight:400 ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* =================================================
+    Doctor css end
+==================================================*/
+
+/* =================================================
+    Footer css start
+==================================================*/
+#footer-part{
+    width: 100%;
+    background: #222222;
+    padding-top: 20px;
+}
+.fotter-heading{
+    width: 880px;
+    display: block;
+    float: left;
+}
+.footer-col h2{
+    color: #3ca2a2;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+     
+}
+.footer-row{
+    padding: 20px 0 40px 0;
+}
+.footer-col {
+	width: 23.43%;
+	float: left;
+	margin-right: 20px;
+}
+.footer-col:nth-child(4){
+    margin-right: 0;
+}
+.footer-col ul li a{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-col ul li a span{
+    transition: all linear .2s;
+}
+.footer-col ul li a:hover span{
+    color: #3ca2a2;
+}
+.footer-col ul li a i{
+    color: #cc0101;
+    padding: 5px;
+}
+.footer-col ul li a span{
+    color: #c6ded9;
+}
+#footer-bottom{
+    width: 100%;
+    background: #cf0511;
+    text-align: center;
+}
+#footer-bottom h2{
+    font-size:14 ;
+    font-weight:400 ;
+    color:#c6ded9 ;
+    padding: 16px 0;
+}
+
+/* =================================================
+    Footer css end
+==================================================*/
+
+
+
+
+/* =================================================
+    Header css start
+==================================================*/
+/* =================================================
+    Header css end
+==================================================*/
